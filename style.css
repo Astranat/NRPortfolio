@@ -35,6 +35,8 @@ p {
   z-index: 1000;
 }
 
+
+
 /* Hamburger button styles */
 .nav-toggle {
   background: none;
@@ -685,3 +687,21 @@ p {
   color: #a68dfd;
   font-weight: bold;
 }
+
+.social-icons {
+  margin-top: 15px;
+  display: flex;
+  gap: 20px;
+  object-fit: contain;
+}
+
+.social-icons img {
+  width: 28px;
+  height: 28px;
+  transition: transform 0.2s ease;
+}
+
+.social-icons img:hover {
+  transform: scale(1.1);
+}
+
